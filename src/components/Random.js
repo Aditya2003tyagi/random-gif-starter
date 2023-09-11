@@ -17,6 +17,10 @@ const Random = () => {
     
     console.log('API Response: ', data.data)
 
+    /*
+    Comment Added
+    */
+
     const imageSource = data.data.images.downsized_large.url;
     setGif(imageSource);
     setLoading(false);
